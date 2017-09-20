@@ -11,30 +11,43 @@ my $filename;
 my @source_files = glob ("*.xml");
 no warnings "experimental::autoderef";
 no warnings 'utf8';
-my $dom;
-my $dsn = "DBI:mysql:newbooks4";
+my $id = 0;
 use Data::Dumper;
 say GREEN, "Please enter your MySQL user name",RESET;
 my $username = <STDIN>;
 say GREEN, "Please enter your MySQL password",RESET;
 my $password = <STDIN>;
+say GREEN, "Name Your Datbase",RESET;
+my $db = <STDIN>;
 chomp $username;
 chomp $password;
+chomp $db;
+my $dsn = "DBI:mysql:Driver={SQL Server}";
 my %attr = (PrintError=>0, RaiseError=>1);
 my $dbh = DBI->connect($dsn,$username,$password, \%attr);
 $dbh->{mysql_enable_utf8} = 1;
 my @ddl = (
- "
- CREATE TABLE IF NOT EXISTS data (
- title mediumtext,
- author varchar(255),
- printer varchar(255),
- seller varchar (255),
- shop mediumtext,
- loc varchar(255), 
- date varchar(255),
- pub mediumtext 
-         ) ENGINE=InnoDB;"
+
+	"CREATE DATABASE IF NOT EXISTS $db;",
+		
+	"USE $db;",
+	"CREATE TABLE IF NOT EXISTS data (
+	id mediumint,
+	title mediumtext,
+	author varchar(255),
+	printer varchar(255),
+	seller varchar (255),
+	shop mediumtext,
+	loc varchar(255), 
+	date varchar(255),
+	pub mediumtext 
+	         ) ENGINE=InnoDB;",
+
+	"CREATE TABLE IF NOT EXISTS sellers (
+	id mediumint, 
+	firstname varchar(255),
+	lastname varchar(255)
+	) ENGINE=InnoDB;"
 );
 
 for my $sql(@ddl){
@@ -70,6 +83,7 @@ sub get_books{
 	$pub = $pub->to_literal();
 	$date = $date->to_literal();
 	$title = $title->to_literal();
+	$id++;
 	my $printer;
 	my $seller;
 	my $loc;
@@ -101,31 +115,7 @@ sub get_books{
 			{$seller = $1;
 			$printer = $1;}		
 	else {$seller =  "NULL";}
-
-
-
-	# if ($pub =~ m/printed,?:? and ?(are to be)? sold by ?(me)?,? ?(\w+\.? ?\w+)?/i){
-	# 	$printer = $3;
-	# 	$seller = $3;
-	# }elsif($pub =~ m/printed by ?(\w+\.? ?\w+)? and ?(are to be)? sold by him/i){
-	# 	$printer = $1;
-	# 	$seller = $1;
-	# }elsif ($pub =~ /sold by ?(\w+\.? ?\w+)?/i){
-	# 	$seller = $1;
-	# }elsif ($pub =~ m/for (\w+\.? ?\w+)/i){ 
-	# 	$seller = $1;
-	# }elsif ($printer eq ""){
-	# 	if ($pub =~ /^by (\w+\.? ?\w+)/i){
-	# 		$printer = $1;
-	# 	}elsif ($pub =~ /printed by (\w+\.? ?\w+)/i){
-	# 		$printer = $1;
-	# 	}
-	# }
-
-	# if ($printer eq "")
-	# {$printer = "NULL";}
-	# if ($seller eq "")
-	# {$seller =  "NULL";}			
+		
 	
 	if ($pub =~ m/(s(\w+)?t.?-? ?p\w+l\w+)/i)
 		{$loc = "Saint Paul's";}
@@ -151,7 +141,7 @@ sub get_books{
 			{$loc = "Fleetbridge";}
 		elsif ($pub =~ m/(L[ou]nd\w+-? ?br\w+)/i)
 			{$loc = "London Bridge";}
-		elsif ($pub =~ m/(roy\w+-? ?exch)/i)
+		elsif ($pub =~ m/(roy\w+-? ?excha)/i)
 			{$loc = "Royal Exchange";}
 		elsif ($pub =~ m/(popes-? ?head-? ?al)/i)
 			{$loc = "Pope's Head Alley";}
@@ -170,7 +160,7 @@ sub get_books{
 	
 	if ($date =~ m/(\d+)/)
 		{$date = $1;}	
-	my %book = (title=> $title, author=> $author, printer=> $printer, seller=>$seller, shop=>$shop, loc=>$loc, date=>$date, pub=>$pub);
+	my %book = (id=> $id, title=> $title, author=> $author, printer=> $printer, seller=>$seller, shop=>$shop, loc=>$loc, date=>$date, pub=>$pub);
 	push(@books,\%book);
 	
   }
