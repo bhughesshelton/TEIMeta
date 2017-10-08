@@ -1,0 +1,316 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"N",
+				"Nforks"
+			],
+			[
+				"all",
+				"allprovs"
+			],
+			[
+				"sub",
+				"sub\tFunction"
+			],
+			[
+				"time",
+				"time"
+			],
+			[
+				"this",
+				"thismatch"
+			],
+			[
+				"pats",
+				"patterns"
+			],
+			[
+				"ke",
+				"keys"
+			],
+			[
+				"pat",
+				"pattern"
+			],
+			[
+				"pa",
+				"patterns"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 432.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 520.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/barry/HDD11/TEXT/EEBO/All/TEImeta3.pl",
+		"/media/barry/HDD11/TEXT/Processing/morphadorner-2.0.1/adorneme",
+		"/media/barry/HDD11/TEXT/Processing/morphadorner-2.0.1/eme.properties",
+		"/var/www/html/PhiloLogic4/DrEME/app/assets/css/split/default_theme.css",
+		"/var/www/html/PhiloLogic4/DrEME/data/web_config.cfg",
+		"/media/barry/HDD11/INTHD/INTHDD/olddocs/zWDSyncData/MyProfile/Data/met/1/zz/MEGAN-RAIN-POAR/model-bio_Megan-Rain.txt",
+		"/home/barry/guyfawks.txt",
+		"/media/barry/HDD11/TEXT/Processing/morphadorner-2.0.1/src/edu/northwestern/at/morphadorner/corpuslinguistics/spellingmapper/resources/abbc.tab",
+		"/media/barry/HDD11/TEXT/Processing/morphadorner-2.0.1/src/edu/northwestern/at/morphadorner/corpuslinguistics/namerecognizer/resources/firstnames.txt",
+		"/media/barry/HDD11/TEXT/Processing/morphadorner-2.0.1/data/emelexicon.lex",
+		"/media/barry/HDD11/TEXT/Processing/morphadorner-2.0.1/src/edu/northwestern/at/morphadorner/corpuslinguistics/namerecognizer/resources/connectors.txt",
+		"/media/barry/HDD11/TEXT/Processing/morphadorner-2.0.1/src/edu/northwestern/at/morphadorner/corpuslinguistics/namerecognizer/resources/placenames.txt",
+		"/home/barry/Reddit/JSON/sample2.txt",
+		"/var/www/html/PhiloLogic4/DrEME/app/assets/css/philoLogic.css",
+		"/media/barry/HDD11/TEXT/<export>",
+		"/home/barry/sqlhistory.txt",
+		"/home/barry/CloudStation/sql/mysql_hist",
+		"/home/barry/msi-rgb/src/main.rs",
+		"/var/www/html/PhiloLogic4/Cavendish_Corpus/data/web_config.cfg",
+		"/home/barry/Pictures/text.docx",
+		"/home/barry/.bash_history",
+		"/media/barry/HDD11/TEXT/EEBO/All/TEImeta2.pl",
+		"/media/barry/HDD11/TEXT/EEBO/All/dummy.pl",
+		"/home/barry/.mysql_history",
+		"/media/barry/HDD11/TEXT/EEBO/All/TEImeta.pl",
+		"/media/barry/HDD11/TEXT/EEBO/All/xml8.pl",
+		"/media/barry/HDD2/files.pushshift.io/reddit/comments/zips/redprovs3.pl",
+		"/media/barry/SAMSUNG/essay/newxml.pl",
+		"/var/www/html/PhiloLogic4/Cavendish/data/web_config.cfg",
+		"/var/www/html/PhiloLogic4/DrEME/.htaccess",
+		"/home/barry/.ssh/known_hosts",
+		"/var/www/html/PhiloLogic4/Cavendish/data/.htaccess",
+		"/media/barry/HDD1/TEXT/EEBO/All/TEImeta.pl",
+		"/home/barry/Reddit/extract1.1pl",
+		"/media/barry/HDD1/TEXT/DremeDev/speakers.new.pl",
+		"/home/barry/.ssh/DCP",
+		"/media/barry/HDD1/TEXT/ECCO-TCP-master/ecco_all/ecco/all/XSLT.pl",
+		"/media/barry/HDD1/TEXT/ECCO-TCP-master/ecco_all/ecco/all/saxon.pl",
+		"/media/barry/HDD1/TEXT/EEBO/All/xml9.pl",
+		"/media/barry/HDD2/files.pushshift.io/reddit/comments/zips/test.pl",
+		"/media/barry/SAMSUNG/essay/xml8.pl",
+		"/home/barry/Reddit/extract2.1.pl",
+		"/home/barry/Reddit/words2.0.pl",
+		"/home/barry/Desktop/rstudio.desktop",
+		"/home/barry/Desktop/chromium-browser.desktop",
+		"/media/barry/HDD2/files.pushshift.io/reddit/comments/zips/redprovs2.pl",
+		"/media/barry/HDD1/TEXT/DremeDev/speakers1.0.pl",
+		"/media/barry/HDD1/TEXT/DremeDev/speakers9.pl",
+		"/home/barry/Downloads/xml8.pl",
+		"/media/barry/SAMSUNG/Reddit-master/extract2.0.pl",
+		"/home/barry/Downloads/Reddit-master/extract2.0.pl",
+		"/media/barry/HDD1/R/new1/Autopilot.R",
+		"/media/barry/HDD1/R/new1/Autopilot.txt",
+		"/media/barry/SAMSUNG/Reddit-master/words2.0.pl",
+		"/home/barry/Downloads/Reddit-master/words.pl",
+		"/home/barry/Downloads/Reddit-master/new.pl",
+		"/media/barry/HDD2/files.pushshift.io/reddit/comments/zips/redprovs.pl",
+		"/media/barry/HDD2/files.pushshift.io/reddit/comments/zips/unzips/redprovs.pl",
+		"/media/barry/e8a9f8ba-9ae5-4491-9d81-071fcdcf800d/INTHD/INTHDD/TEXT/EEBO/All/xml8.pl",
+		"/var/www/html/PhiloLogic4/DrEME/app/components/concordanceKwic/concordanceKwic.js",
+		"/var/www/html/PhiloLogic4/DrEME/app/components/concordanceKwic/concordanceKwicDirectives.js",
+		"/var/www/html/PhiloLogic4/DrEME/app/components/concordanceKwic/concordanceKwicValues.js",
+		"/var/www/html/PhiloLogic4/DrEME/app/components/concordanceKwic/concordanceKwicFilters.js",
+		"/var/www/html/PhiloLogic4/Dummy/app/assets/css/philoLogic.css",
+		"/var/www/html/PhiloLogic4/Dummy/data/web_config.cfg",
+		"/var/www/html/PhiloLogic4/Dummy/app/components/textNavigation/textNavigationValues.js",
+		"/var/www/html/PhiloLogic4/Dummy/dispatcher.py"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Previous Courses",
+			"Previus Courses",
+			"previous",
+			"tho.",
+			"thomas",
+			"css",
+			"subreddit\":",
+			"controversiality\":1",
+			"controversia",
+			"css",
+			"Flesher",
+			">Flesher",
+			">Flesher, Miles",
+			"fair mai",
+			"date",
+			"substring(d",
+			"subst",
+			"update",
+			", $title, $author;",
+			"conc",
+			"kwic",
+			"\t '(",
+			"\"",
+			"shakes",
+			"clus",
+			"$wordCount",
+			"foreach my $proverb(@allprovs){\n\tmy $sql = \"INSERT INTO proverbs(prov, date, time, sub, author, hit, rawmatch) VALUES(?,?,?,?,?,?,?)\";\n\tmy $stmt = $dbh->prepare($sql);\n\t$stmt->execute($proverb->{prov}, $proverb->{date}, $proverb->{time}, $proverb->{sub}, $proverb->{author}, $proverb->{hit}, $proverb->{rawmatch});\n\t$stmt->finish();\n}",
+			"key",
+			"@matches",
+			"$fm",
+			"kwic_metadata_sorting_fields",
+			"center",
+			"kwic_metadata_sorting_fields",
+			"center",
+			"before",
+			".xml-milestone::before {\n    content: attr(n) \"\\00a0\";\n    color: #909090;\n    font-family: 'Droid Sans Mono', sans-serif;\n    font-size: .6em;\n    vertical-align: .3em;\n}",
+			"before\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"before",
+			"                <span ng-if=\"!citation.href\">\n                    <span ng-bind-html=\"citation.prefix\" ng-if=\"!$first\"></span>\n                    <span ng-style=\"citation.style\">{{ ::citation.label }}</span>\n                    <span ng-bind-html=\"citation.suffix\"></span>\n                    <span ng-bind-html=\"citation.separator\" ng-if=\"!$last\"></span>\n                </span>\n            </span"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "TEImeta3.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
